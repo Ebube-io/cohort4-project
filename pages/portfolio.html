@@ -1,99 +1,243 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <!-- Basic -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
-   
-    <!-- Mobile Metas -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
- 
-     <!-- Site Metas -->
-    <title>Portfolio Project</title>  
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="author" content="">
+<!-- Basic -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <!-- Site Icons -->
-    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="../images/apple-touch-icon.png">
+<!-- Mobile Metas -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <!-- Site CSS -->
-    <link rel="stylesheet" href="../style.css">    
-    <!-- Responsive CSS -->
-    <link rel="stylesheet" href="../css/responsive.css">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="../css/custom.css">
+<!-- Site Metas -->
+<title>Portfolio Project</title>
+<meta name="keywords" content="my website">
+<meta name="description" content="Welcome to my Page">
+<meta name="author" content="Ebube Ikeanyi">
 
-    <!--[if lt IE 9]>
+<!-- Site Icons -->
+<link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon" />
+<link rel="apple-touch-icon" href="../images/apple-touch-icon.png">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+<!-- Site CSS -->
+<link rel="stylesheet" href="../style.css">
+<!-- Responsive CSS -->
+<link rel="stylesheet" href="../css/responsive.css">
+<!-- Custom CSS -->
+<link rel="stylesheet" href="../css/custom.css">
+
+<!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
 </head>
+
 <body class="app_version" data-spy="scroll" data-target="#navbarApp" data-offset="98">
 
     <!-- LOADER -->
     <div id="preloader">
-        <img class="preloader" src="images/loaders/loader-app.gif" alt="">
+        <!--img class="preloader" src="images/loaders/loader-app.gif" alt=""-->
     </div><!-- end loader -->
     <!-- END LOADER -->
-	<header class="header header_style_01">
+    <header class="header header_style_01">
         <nav class="navbar header-nav navbar-expand-lg">
             <div class="container">
-				<a class="navbar-brand" href="index.html"><p>MYWEBSITE</p></a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarApp" aria-controls="navbarApp" aria-expanded="false" aria-label="Toggle navigation">
-					<span></span>
-					<span></span>
-					<span></span>
-				</button>
+                <a class="navbar-brand" href="index.html">
+                    <p>MYWEBSITE</p>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarApp"
+                    aria-controls="navbarApp" aria-expanded="false" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarApp">
                     <ul class="navbar-nav">
                         <li><a class="nav-link" href="../index.html">Home</a></li>
                         <li><a class="nav-link active" href="#portfolio">Portfolio</a></li>
                         <li><a class="nav-link" href="./about.html">About</a></li>
-						<li><a class="nav-link" href="./contact.html">Contact</a></li>
+                        <li><a class="nav-link" href="./contact.html">Contact</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
-    </header>		
-	
-	
+    </header>
 
 
-    
-	<footer class="footer">
-		<div class="container"> 
-			<div class="row"> 
-				<div class="col-md-12"> 
-					<div class="subscribe-text">
-						<h3>Subscribe for Newsletter</h3>
-							</div>
-					
-					<div class="subscribe-form">
-						<form>
-							<input class="form-control" id="subscribe_email" name="email" placeholder="Email Address..." required="" type="email">
-							<button type="submit" class="btn subscribe-btn"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
-						</form>
-					</div>
-				</div>
-			</div>
-		</div>
+    <div class="section">
+        <div class="container">
+            <div class="section-title text-center">
+                <h3>My Portfolio</h3>
+                <p>Check out some of my work.</p>
+            </div><!-- end title -->
+        </div>
+     
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="card">
+                       <img src="../images/biocard.jpg" class="card-img-top d-block" alt="Bio card">
+                        <div class="card-body">
+                            <h4 class="card-title"><strong>Bio Card</strong></h4>
+                            <p class="card-text">This is a simple Bio page built with Html and CSS</p>
+                            <a href="https://incomparable-pasca-c001fc.netlify.app/" class="btn btn-dark">Go to Site</a>
+                        </div>
+                    </div><!--end of card1-->
+
+                    <div class="card">
+                        <img src="../images/list.jpg" class="card-img-top">
+                        <div class="card-body">
+                        <h4 class="card-title"><strong>Chocolate Cookie Recipe</strong></h4>
+                        <p class="card-text">Bio page built with Html and CSS</p>
+                        <a href="https://transcendent-faun-681600.netlify.app/" class="btn btn-dark">Go to Site</a> 
+                    </div><!--end of card2-->
+                    
+
+                    <div class="card">
+                        <img src="../images/form.jpg" class="card-img-top">
+                        <div class="card-body">
+                        <h4 class="card-title"><strong>Registration Form</strong></h4>
+                        <p class="card-text">Sample Cohort registration form</p>
+                        <a href="https://effortless-pastelito-25ddc7.netlify.app/" class="btn btn-dark">Go to Site</a> 
+                        </div>
+                    </div><!--end of card3-->
+
+                    <div class="card">
+                        <img src="../images/flexbox.jpg" class="card-img-top">
+                        <div class="card-body">
+                        <h4 class="card-title"><strong>Preview Card</strong></h4>
+                        <p class="card-text">Responsive Marketing Preview card.</p>
+                        <a href="https://roaring-fudge-3ef246.netlify.app/" class="btn btn-dark">Go to Site</a> 
+                        </div>
+                    </div><!--end of card4-->
+
+                    <div class="card">
+                        <img src="../images/portfolio.jpg" class="card-img-top">
+                        <div class="card-body">
+                        <h4 class="card-title"><strong>My Website</strong></h4>
+                        <p class="card-text">This Website.</p>
+                        <a href="https://tubular-phoenix-ae293a.netlify.app/" class="btn btn-dark">Go to Site</a> 
+                        </div>
+                    </div><!--end of card5-->
+
+                </div><!--end of col-->
+            </div><!--end of row-->
+        </div><!--end of container-->
+    </div><!--end of section-->
+
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel";">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="cards-wrapper d-inline-flex">
+            <div class="card">
+              <img src="../images/biocard.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><strong>Bio Card</strong></h5>
+                <p class="card-text">Bio page built with Html and CSS</p>
+                <a href="https://incomparable-pasca-c001fc.netlify.app/" class="btn btn-dark">Go to Site</a>
+              </div>
+            </div>
+            
+            <div class="card">
+              <img src="../images/list.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><strong>Chocolate Cookie Recipe</strong></h5>
+                <p class="card-text">Recipe for preparing chocolate cookies.</p>
+                <a href="https://transcendent-faun-681600.netlify.app/" class="btn btn-dark">Go to Site</a>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="carousel-item">
+            <div class="cards-wrapper d-inline-flex">
+              <div class="card">
+                <img src="../images/form.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"><strong>Registration Form</strong></h5>
+                  <p class="card-text">Sample Cohort registration form</p>
+                  <a href="https://effortless-pastelito-25ddc7.netlify.app/" class="btn btn-dark">Go to Site</a>
+                </div>
+              </div>
+              
+              <div class="card">
+                <img src="../images/flexbox.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"><strong>Preview Card</strong></h5>
+                  <p class="card-text">Responsive Marketing Preview card.</p>
+                  <a href="https://roaring-fudge-3ef246.netlify.app/" class="btn btn-dark">Go to Site</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="cards-wrapper">
+              <div class="card justify-content-end">
+                <img src="../images/portfolio.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"><strong>My Website</strong></h5>
+                  <p class="card-text">This Website.</p>
+                  <a href="https://tubular-phoenix-ae293a.netlify.app/" class="btn btn-dark">Go to Site</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" data-target="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" data-target="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+
+    <footer class="footer">
+        <!--<div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="subscribe-text">
+                        <h3>Subscribe for Newsletter</h3>
+                    </div>
+
+                    <div class="subscribe-form">
+                        <form>
+                            <input class="form-control" id="subscribe_email" name="email" placeholder="Email Address..."
+                                required="" type="email">
+                            <button type="submit" class="btn subscribe-btn"><i class="fa fa-paper-plane-o"
+                                    aria-hidden="true"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>-->
+
+        <div class="copyrights">
+            <div class="container">
+                <div class="footer-distributed">
+                    <div class="footer-left">                    
+                        <p class="footer-company-name">Hertechtrail Academy Cohort 4 Project &copy; 2022</p>
+                        <p class="footer-company-name"> Designed by Ebube</p>
+                    </div>
+                </div>
+            </div><!-- end container -->
+        </div><!-- end copyrights -->
     </footer><!-- end footer -->
 
-    <div class="copyrights">
+    <!--div class="copyrights">
         <div class="container">
             <div class="footer-distributed">
-                <div class="footer-left">                    
+                <div class="footer-left">
                     <p class="footer-company-name">Hertechtrail Academy Cohort 4 Project &copy; 2022</p>
-					<p class="footer-company-name">  Designed By : Maggy</p>
+                    <p class="footer-company-name"> Designed by Ebube</p>
                 </div>
             </div>
         </div><!-- end container -->
-    </div><!-- end copyrights -->
+    </div--><!-- end copyrights -->
 
     <a href="#about" data-scroll class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
 
@@ -101,29 +245,29 @@
     <!-- ALL JS FILES -->
     <script src="../js/all.js"></script>
     <!-- ALL PLUGINS -->
-	<script src="../js/main.js"></script>
+    <script src="../js/main.js"></script>
     <script src="../js/custom.js"></script>
-	<script src="../js/swiper.min.js"></script>
-	<script>
-		var swiper = new Swiper('.swiper-container', {
-			loop: true,
-			effect: 'coverflow',
-			centeredSlides: true,
-			loopFillGroupWithBlank: true,
-			slidesPerView: 3,
+    <script src="../js/swiper.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            loop: true,
+            effect: 'coverflow',
+            centeredSlides: true,
+            loopFillGroupWithBlank: true,
+            slidesPerView: 3,
             initialSlide: 3,
             keyboardControl: true,
             mousewheelControl: false,
             lazyLoading: true,
-			pagination: {
-				el: '.swiper-pagination',
-				clickable: true,
-			},
-			navigation: {
-				nextEl: '.swiper-button-next',
-				prevEl: '.swiper-button-prev',
-			},
-			breakpoints: {
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            breakpoints: {
                 1199: {
                     slidesPerView: 3,
                     spaceBetween: 30,
@@ -141,8 +285,9 @@
                     spaceBetween: 3,
                 }
             }
-		});
-	  </script>
+        });
+    </script>
 
 </body>
+
 </html>

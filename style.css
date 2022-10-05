@@ -346,21 +346,21 @@ a img.aligncenter {
 	font-size: 18px;
 	border: 1px solid #ffffff;
 	color: #ffffff;
-	background-color: rgb(99, 26, 26);
+	background-color: rgb(35, 33, 33);
 	line-height: 25px;
 	float: right;
 	font-weight: 500;
 }
 
 .right-btn a:hover{
-	background-color: rgb(99, 26, 26);
+	background-color: rgb(35, 33, 33);
 	color: #ffffff;
-	border: 1px solid rgb(99, 26, 26);
+	border: 1px solid rgb(35, 33, 33);
 }
 
 /*Navbar Toogle*/
 .navbar-toggler {
-	background: rgb(99, 26, 26);
+	background: rgb(35, 33, 33);
 	border: none;
 	padding: 10px 6px;
 	outline: none !important;
@@ -386,16 +386,16 @@ a img.aligncenter {
 
 .navbar-expand-lg .navbar-nav .nav-link:hover{
 	background: none;
-	color:rgb(99, 26, 26);
+	color:rgb(35, 33, 33);
 	border-radius: 0px;
-	border-bottom: 3px solid rgb(99, 26, 26);
+	border-bottom: 3px solid rgb(35, 33, 33);
 }
 
 .navbar-expand-lg .navbar-nav .nav-link.active{
 	background: none;
-	color: rgb(99, 26, 26);
+	color: rgb(35, 33, 33);
 	border-radius: 0px;
-	border-bottom: 3px solid rgb(99, 26, 26);
+	border-bottom: 3px solid rgb(35, 33, 33);
 }
 
 .header_style_01 .navbar-brand {
@@ -419,7 +419,7 @@ a img.aligncenter {
 
 .header_style_01 .navbar-default .navbar-nav > li:hover a,
 .header_style_01 .navbar-default .navbar-nav > li:focus a {
-    color: rgb(99, 26, 26);
+    color: rgb(35, 33, 33);
 }
 
 .header_style_01 .navbar-right > li {
@@ -449,7 +449,7 @@ li.social-links a {
 }
 
 li.social-links a:hover {
-	color: rgb(99, 26, 26);
+	color: rgb(35, 33, 33);
 }
 
 .header_style_01.fixed-menu{
@@ -651,7 +651,7 @@ body.app_version .header_style_01.fixed-menu{
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgb(99, 26, 26);
+    background: rgb(35, 33, 33);
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
     -webkit-transform-origin: 0 50%;
@@ -673,7 +673,7 @@ body.app_version .header_style_01.fixed-menu{
 
 .cd-hero__btn:hover{
 	color: #ffffff;
-    background-color: rgb(99, 26, 26) !important;
+    background-color: rgb(35, 33, 33) !important;
 }
 
 .js-cd-slide::before{
@@ -681,7 +681,7 @@ body.app_version .header_style_01.fixed-menu{
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	background: rgba(230,81,0,0.25);
+	background: rgba(35, 33, 33);
 	left: 0px;
 	right: 0px;
 	top: 0px;
@@ -710,7 +710,7 @@ body.app_version .header_style_01.fixed-menu{
 	height: 90px;
 	text-align: center;
 	line-height: 90px;
-	background: rgb(99, 26, 26);
+	background: #ffffff;
 	box-shadow: inset 0 0 0 10px rgba(51,51,51,0.6), 0 1px 2px rgba(0,0,0,0.1);
 	-webkit-transition: all 0.4s ease-in-out;
 	-moz-transition: all 0.4s ease-in-out;
@@ -1005,6 +1005,37 @@ body.app_version .header_style_01.fixed-menu{
     color: #333333;
     line-height: 28px;
 }
+/*.cards-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .carousel card img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .carousel card {
+    margin: 0 0.5em;
+    box-shadow: 2px 6px 8px 0 rgba(32, 32, 43, 0.18);
+    border: none;
+    border-radius: 0;
+  }
+  .carousel-inner {
+    padding: 1em;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    background-color: #e1e1e1;
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  @media (min-width: 768px) {
+    .card img {
+      height: 11em;
+    }
+  }*/
 
 
 

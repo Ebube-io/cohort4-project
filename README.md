@@ -30,4 +30,8 @@ As mentioned above, there are a number of ways to host your project for free. We
 4. Connect your project to netlify from the "Import project" page, using the "From Git Repository" button and selecting the project you want to deploy.
    Once connected, every time you git push, netlify will create a new deployment and the deployment URL will be shown on your Dashboard.
 
+## Deployed project
+
+https://tubular-phoenix-ae293a.netlify.app/
+
 **Have fun building!** 🚀
