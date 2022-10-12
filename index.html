@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
  
      <!-- Site Metas -->
-    <title>Portfolio Project</title>  
+    <title>Website || Ebube Ikeanyi</title>  
     <meta name="keywords" content="my website">
     <meta name="description" content="Welcome to my Page">
     <meta name="author" content="Ebube Ikeanyi">
@@ -25,25 +25,28 @@
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="css/responsive.css">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/custom.css">
-
+    <link rel="stylesheet" href="./css/darkmode.css">
+	<!-- fontawesome -->
+	<link rel="stylesheet" href="fontawesome/css/all.css">
+	
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
 </head>
-<body class="app_version" data-spy="scroll" data-target="#navbarApp" data-offset="98">
+<body class="app_version dark" data-spy="scroll" data-target="#navbarApp" data-offset="98">
 
     <!-- LOADER -->
     <div id="preloader">
         <!--img class="preloader" src="images/loaders/loader-app.gif" alt=""-->
     </div><!-- end loader -->
     <!-- END LOADER -->
+
     <header class="header header_style_01">
         <nav class="navbar header-nav navbar-expand-lg">
             <div class="container">
 				<a class="navbar-brand" href="index.html"><p>Welcome</p></a>
+				<button onclick="myFunction()">Switch mode</button>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarApp" aria-controls="navbarApp" aria-expanded="false" aria-label="Toggle navigation">
 					<span></span>
 					<span></span>
@@ -69,9 +72,9 @@
 					<h2>Utilizing code to build visually stunning platforms</h2>
 					<a href="#0" class="hvr-bounce-to-right cd-hero__btn">Connect</a>
 					<div class="hero_icon">
-						<a href="https://twitter.com/ebubeikeanyi"><img src="./images/iconmonstr-twitter-5.svg" alt="twitter" /></a>
-						<a href="https://github.com/Ebube-io"><img src="./images/github.svg" alt="github" /></a>
-						<a href="https://linkedin.com/in/ebubeikeanyi"><img src="./images/iconmonstr-linkedin-5.svg" alt="linkedin" /></a>
+						<a href="https://twitter.com/ebubeikeanyi"><i class="fa-brands fa-twitter fa-2xl" style="color: white ; padding:  10px;"></i></a>
+						<a href="https://github.com/Ebube-io"><i class="fa-brands fa-github fa-2xl" style="color: white ; padding:  10px;"></i></a>
+						<a href="https://linkedin.com/in/ebubeikeanyi"><i class="fa-brands fa-linkedin fa-2xl" style="color: white ; padding:  10px;"></i></a>
 					</div>
 
 				</div> <!-- .cd-hero__content -->
@@ -80,65 +83,13 @@
 					<img src="./images/pexels-monstera-7411986.jpg" alt="hero" class="img-fluid" />
 				</div> <!-- .cd-hero__content -->
 			</li>
-
-			<li class="cd-hero__slide js-cd-slide">
-				<div class="cd-hero__content cd-hero__content--half-width cd-hero__content--img">
-					<img src="uploads/app_iphone_01.png" class="img-fluid" alt="tech 2">
-				</div> <!-- .cd-hero__content -->
-
-				<div class="cd-hero__content cd-hero__content--half-width">
-					<h2>Skills</h2>
-					<p>Html <br>CSS <br>Flutter</p>
-					<a href="#0" class="hvr-bounce-to-right cd-hero__btn">Connect</a>
-					<div>
-						<a href="https://twitter.com/ebubeikeanyi"><img src="./images/iconmonstr-twitter-5.svg" alt="twitter" /></a>
-						<a href="https://github.com/Ebube-io"><img src="./images/github.svg" alt="github" /></a>
-						<a href="https://linkedin.com/in/ebubeikeanyi"><img src="./images/iconmonstr-linkedin-5.svg" alt="linkedin" /></a>
-					</div>
-				</div> <!-- .cd-hero__content -->
-				
-			</li>
-
-			
-
-			
-
 		</ul> <!-- .cd-hero__slider -->
-
-		<div class="cd-hero__nav js-cd-nav">
-			<nav>
-				<span class="cd-hero__marker cd-hero__marker--item-1 js-cd-marker"></span>
-				
-				<ul>
-					<li class="cd-selected"><a href="#0">01</a></li>
-					<!-- <li><a href="#0">02</a></li> -->
-					<li><a href="#0">02</a></li>
-					
-				</ul>
-			</nav> 
-		</div> <!-- .cd-hero__nav -->
 	</section> <!-- .cd-hero -->
 
 	
 
 
     <footer class="footer">
-		<!--div class="container"> 
-			<div class="row"> 
-				<div class="col-md-12"> 
-					<div class="subscribe-text">
-						<h3>Subscribe for Newsletter</h3>
-					</div>
-					<div class="subscribe-form">
-						<form>
-							<input class="form-control" id="subscribe_email" name="email" placeholder="Email Address..." required="" type="email">
-							<button type="submit" class="btn subscribe-btn"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
-						</form>
-					</div>
-				</div>
-			</div>
-		</div-->
-
 		<div class="copyrights">
 			<div class="container">
 				<div class="footer-distributed">
@@ -151,16 +102,7 @@
 		</div><!-- end copyrights -->
     </footer><!-- end footer -->
 
-    <!--div class="copyrights">
-        <div class="container">
-            <div class="footer-distributed">
-                <div class="footer-left">                    
-                    <p class="footer-company-name">Hertechtrail Academy Cohort 4 Project &copy; 2022</p>
-					<p class="footer-company-name">  Ebube</p>
-                </div>
-            </div>
-        </div><!-- end container -->
-    </div--><!-- end copyrights -->
+
 
     <a href="#home" data-scroll class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
 
@@ -169,6 +111,7 @@
     <!-- ALL PLUGINS -->
 	<script src="js/main.js"></script>
     <script src="js/custom.js"></script>
+	<script src="fontawesome/js/all.js"></script>
 	<script src="js/swiper.min.js"></script>
 	<script>
 		var swiper = new Swiper('.swiper-container', {
@@ -208,7 +151,16 @@
                 }
             }
 		});
-	  </script>
+	
+	</script>
+	  
+	<!-- Dark mode JS -->
+	<script>
+    	function myFunction() {
+  			var element = document.body;
+  			element.classList.toggle("dark-mode");
+}
+    </script>
 
 </body>
 </html>

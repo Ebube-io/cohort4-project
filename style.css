@@ -676,18 +676,23 @@ body.app_version .header_style_01.fixed-menu{
     background-color: rgb(35, 33, 33) !important;
 }
 
+/*troublesome hero page section background*/
 .js-cd-slide::before{
 	content: "";
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	background: rgba(35, 33, 33);
+	background: rgba(52, 87, 79, 0.598);
 	left: 0px;
 	right: 0px;
 	top: 0px;
 	z-index: 0;
 }
 
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
 
 .about-right h2{
 	font-size: 32px;
