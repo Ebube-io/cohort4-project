@@ -9,14 +9,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
  
      <!-- Site Metas -->
-    <title>Website || Ebube Ikeanyi</title>  
+    <title>My Website || Home</title>  
     <meta name="keywords" content="my website">
     <meta name="description" content="Welcome to my Page">
     <meta name="author" content="Ebube Ikeanyi">
 
     <!-- Site Icons -->
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <link rel="manifest" href="favicons/site.webmanifest">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -25,7 +27,7 @@
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="css/responsive.css">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="./css/darkmode.css">
+    <link rel="stylesheet" href="/css/custom.css">
 	<!-- fontawesome -->
 	<link rel="stylesheet" href="fontawesome/css/all.css">
 	
@@ -46,7 +48,6 @@
         <nav class="navbar header-nav navbar-expand-lg">
             <div class="container">
 				<a class="navbar-brand" href="index.html"><p>Welcome</p></a>
-				<button onclick="myFunction()">Switch mode</button>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarApp" aria-controls="navbarApp" aria-expanded="false" aria-label="Toggle navigation">
 					<span></span>
 					<span></span>
@@ -76,7 +77,6 @@
 						<a href="https://github.com/Ebube-io"><i class="fa-brands fa-github fa-2xl" style="color: white ; padding:  10px;"></i></a>
 						<a href="https://linkedin.com/in/ebubeikeanyi"><i class="fa-brands fa-linkedin fa-2xl" style="color: white ; padding:  10px;"></i></a>
 					</div>
-
 				</div> <!-- .cd-hero__content -->
 
 				<div class="cd-hero__content cd-hero__content--half-width cd-hero__content--img">
@@ -159,7 +159,7 @@
     	function myFunction() {
   			var element = document.body;
   			element.classList.toggle("dark-mode");
-}
+        }
     </script>
 
 </body>

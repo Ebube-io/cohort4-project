@@ -20,12 +20,26 @@
 /*------------------------------------------------------------------
     SKELETON
 -------------------------------------------------------------------*/
+:root{
+    --textPrimaryColor: #000;
+    --backgroundPrimaryColor: #fff;
+}
 
 body {
-    color: #999;
+    color:var(--textPrimaryColor);
+    background-color: var(--backgroundPrimaryColor);
     font-size: 15px;
     font-family: 'Josefin Sans', sans-serif;
     line-height: 1.80857;
+}
+
+body.dark {
+    --textPrimaryColor: #fff;
+    --backgroundPrimaryColor: #000;
+}
+
+.block_element {
+    color: var(--textPrimaryColor)
 }
 
 body.demos .section {
@@ -1258,55 +1272,11 @@ body.app_version .bootstrap-select .btn-light:hover{
 }
 
 .footer {
-    padding: 40px !important;
+    padding: 100px !important;
     color: #999;
     background-color: #1f1f1f;
 }
 
-.subscribe-text{
-	margin: 0 auto 40px;
-	max-width: 610px;
-	text-align: center;
-	width: 100%;
-}
-.subscribe-text h3{
-	font-size: 34px;
-	color: #fff;
-	font-weight: 600;
-}
-.subscribe-form{
-	margin: auto;
-	max-width: 400px;
-	position: relative;
-	width: 100%;
-}
-
-.subscribe-form .form-control {
-    border: none;
-    border-radius: 0px;
-    height: 50px;
-    padding: 10px 20px;
-}
-
-.subscribe-form .subscribe-btn{
-	background: rgb(99, 26, 26);
-	border: none;
-	border-radius: 0px;
-	color: #ffffff;
-	display: inline-block;
-	font-size: 30px;
-	line-height: 0;
-	font-weight: 600;
-	height: 50px;
-	padding: 0 35px;
-	position: absolute;
-	right: -1px;
-	text-transform: uppercase;
-	top: 0;
-}
-.subscribe-form .subscribe-btn:hover{
-	background: #333333;
-}
 
 .copyrights {
     border-top: 1px dashed rgba(255, 255, 255, 0.1);
