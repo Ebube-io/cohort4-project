@@ -32,6 +32,6 @@ As mentioned above, there are a number of ways to host your project for free. We
 
 ## Deployed project
 
-https://tubular-phoenix-ae293a.netlify.app/
+https://sightmypage.netlify.app/
 
 **Have fun building!** 🚀
